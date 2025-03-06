@@ -721,14 +721,14 @@
 		)
 	)
 	(junction
-		(at 77.47 100.33)
+		(at 50.8 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ba2d043e-e607-4083-942c-0428eb45fc12")
+		(uuid "e7e47da9-a194-47a7-9e2c-a993595ba332")
 	)
 	(wire
 		(pts
-			(xy 60.96 100.33) (xy 60.96 91.44)
+			(xy 50.8 91.44) (xy 50.8 96.52)
 		)
 		(stroke
 			(width 0)
@@ -738,7 +738,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 95.25) (xy 120.65 100.33)
+			(xy 88.9 87.63) (xy 88.9 91.44)
 		)
 		(stroke
 			(width 0)
@@ -748,7 +748,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 71.12) (xy 120.65 87.63)
+			(xy 88.9 76.2) (xy 88.9 80.01)
 		)
 		(stroke
 			(width 0)
@@ -758,7 +758,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 71.12) (xy 96.52 71.12)
+			(xy 66.04 76.2) (xy 73.66 76.2)
 		)
 		(stroke
 			(width 0)
@@ -768,7 +768,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 71.12) (xy 120.65 71.12)
+			(xy 81.28 76.2) (xy 88.9 76.2)
 		)
 		(stroke
 			(width 0)
@@ -778,7 +778,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 81.28) (xy 60.96 71.12)
+			(xy 50.8 78.74) (xy 50.8 76.2)
 		)
 		(stroke
 			(width 0)
@@ -788,17 +788,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 100.33) (xy 77.47 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99baad71-c73a-4985-93e1-48ed1ffc645b")
-	)
-	(wire
-		(pts
-			(xy 60.96 71.12) (xy 71.12 71.12)
+			(xy 50.8 76.2) (xy 58.42 76.2)
 		)
 		(stroke
 			(width 0)
@@ -808,7 +798,17 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 100.33) (xy 60.96 100.33)
+			(xy 50.8 91.44) (xy 50.8 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adef52ec-2b95-4616-9942-c897076123d7")
+	)
+	(wire
+		(pts
+			(xy 50.8 91.44) (xy 88.9 91.44)
 		)
 		(stroke
 			(width 0)
@@ -816,19 +816,9 @@
 		)
 		(uuid "bd3d3ead-d6e6-4783-bf72-9057cdea5ef0")
 	)
-	(wire
-		(pts
-			(xy 120.65 100.33) (xy 77.47 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d205b2ee-48af-4b08-9c64-6cc7308291f1")
-	)
 	(symbol
 		(lib_id "Simulation_SPICE:VSIN")
-		(at 60.96 86.36 0)
+		(at 50.8 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -837,7 +827,7 @@
 		(fields_autoplaced yes)
 		(uuid "366df047-94ef-499c-899c-971fa4f03f9e")
 		(property "Reference" "V1"
-			(at 64.77 83.6901 0)
+			(at 54.61 81.1501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -846,7 +836,7 @@
 			)
 		)
 		(property "Value" "VSIN"
-			(at 64.77 86.2301 0)
+			(at 54.61 83.6901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -855,7 +845,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 86.36 0)
+			(at 50.8 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -864,7 +854,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at 60.96 86.36 0)
+			(at 50.8 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -873,7 +863,7 @@
 			)
 		)
 		(property "Description" "Voltage source, sinusoidal"
-			(at 60.96 86.36 0)
+			(at 50.8 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -882,7 +872,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 60.96 86.36 0)
+			(at 50.8 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -891,7 +881,7 @@
 			)
 		)
 		(property "Sim.Params" "dc=0 ampl=2 f=10.7k ac=1"
-			(at 64.77 88.7701 0)
+			(at 54.61 86.2301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -900,7 +890,7 @@
 			)
 		)
 		(property "Sim.Type" "SIN"
-			(at 60.96 86.36 0)
+			(at 50.8 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -909,7 +899,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 60.96 86.36 0)
+			(at 50.8 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -935,7 +925,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 74.93 71.12 90)
+		(at 62.23 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -944,7 +934,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e3bab7f-7f78-4844-a5c2-26a1ac7d3ed1")
 		(property "Reference" "C1"
-			(at 74.93 63.5 90)
+			(at 62.23 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -952,7 +942,7 @@
 			)
 		)
 		(property "Value" "220n"
-			(at 74.93 66.04 90)
+			(at 62.23 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -960,7 +950,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 70.1548 0)
+			(at 66.04 75.2348 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -969,7 +959,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 71.12 0)
+			(at 62.23 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -978,7 +968,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 74.93 71.12 0)
+			(at 62.23 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1003,7 +993,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 100.33 71.12 90)
+		(at 77.47 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1012,7 +1002,7 @@
 		(fields_autoplaced yes)
 		(uuid "a80e7fc6-c17e-4bdc-9a55-1d95ede0c659")
 		(property "Reference" "L1"
-			(at 100.33 66.04 90)
+			(at 77.47 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1020,7 +1010,7 @@
 			)
 		)
 		(property "Value" "100m"
-			(at 100.33 68.58 90)
+			(at 77.47 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1028,7 +1018,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 71.12 0)
+			(at 77.47 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1037,7 +1027,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 71.12 0)
+			(at 77.47 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1046,7 +1036,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 100.33 71.12 0)
+			(at 77.47 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1071,7 +1061,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 120.65 91.44 0)
+		(at 88.9 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1080,7 +1070,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd35a454-fb8a-499c-8f66-a2f6dc2b85a0")
 		(property "Reference" "R1"
-			(at 123.19 90.1699 0)
+			(at 91.44 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1089,7 +1079,7 @@
 			)
 		)
 		(property "Value" "680"
-			(at 123.19 92.7099 0)
+			(at 91.44 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1098,7 +1088,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.872 91.44 90)
+			(at 87.122 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1107,7 +1097,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 91.44 0)
+			(at 88.9 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1116,7 +1106,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 120.65 91.44 0)
+			(at 88.9 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1141,7 +1131,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 77.47 107.95 0)
+		(at 50.8 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1149,7 +1139,7 @@
 		(dnp no)
 		(uuid "e8193630-7076-47b9-bd1c-1eca98fb35d5")
 		(property "Reference" "#GND01"
-			(at 77.47 113.03 0)
+			(at 50.8 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1158,7 +1148,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 79.248 105.41 0)
+			(at 52.578 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1166,7 +1156,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 107.95 0)
+			(at 50.8 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1175,7 +1165,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 77.47 118.11 0)
+			(at 50.8 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1184,7 +1174,7 @@
 			)
 		)
 		(property "Description" "0V reference potential for simulation"
-			(at 77.47 115.57 0)
+			(at 50.8 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
