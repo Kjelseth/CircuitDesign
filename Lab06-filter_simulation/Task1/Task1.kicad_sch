@@ -585,13 +585,7 @@
 		(at 72.39 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "97868ed0-487e-447d-a81a-ea1cdecc6ac5")
-	)
-	(junction
-		(at 72.39 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b210a9a5-76f9-4349-bf5c-b89a503d293b")
+		(uuid "6c1ae695-6eba-4be0-8ac7-b127025677dc")
 	)
 	(wire
 		(pts
@@ -605,33 +599,13 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 59.69) (xy 72.39 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dff13b2-2325-4fd7-9a44-0bffd544d247")
-	)
-	(wire
-		(pts
 			(xy 72.39 66.04) (xy 72.39 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "448f54f8-c994-4464-9350-b90200952552")
-	)
-	(wire
-		(pts
-			(xy 72.39 66.04) (xy 72.39 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86a464c5-4873-45dc-9a73-ef2f1ad2775c")
+		(uuid "5940b6e1-e6b9-4979-ade6-d5ac3a0ebfaa")
 	)
 	(wire
 		(pts
@@ -655,16 +629,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 66.04) (xy 114.3 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a72e41d9-1845-49a2-9af4-1bac87ef4585")
-	)
-	(wire
-		(pts
 			(xy 72.39 50.8) (xy 91.44 50.8)
 		)
 		(stroke
@@ -682,6 +646,26 @@
 			(type default)
 		)
 		(uuid "c565464d-d5df-4ab1-abcf-cc8e4cb594f9")
+	)
+	(wire
+		(pts
+			(xy 72.39 66.04) (xy 114.3 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9bb03a6-7a3c-4b80-869e-3b2deb4474a7")
+	)
+	(wire
+		(pts
+			(xy 72.39 63.5) (xy 72.39 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebcdabd9-7f69-43aa-a932-90ca437faa7f")
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")

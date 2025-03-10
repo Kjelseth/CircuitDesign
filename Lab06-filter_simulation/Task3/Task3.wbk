@@ -70,9 +70,9 @@
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(55, 126, 184)",
-          "cursor1": {
-            "position": 5.157497914929107e-05,
+          "color": "rgb(228, 26, 28)",
+          "cursor2": {
+            "position": 5.1626666666666665e-05,
             "x_format": "3~s",
             "y_format": "3~V"
           },
@@ -84,9 +84,9 @@
           "trace_type": 257
         },
         {
-          "color": "rgb(228, 26, 28)",
-          "cursor2": {
-            "position": 4.6786989157631355e-05,
+          "color": "rgb(55, 126, 184)",
+          "cursor1": {
+            "position": 4.682666666666666e-05,
             "x_format": "3~s",
             "y_format": "3~V"
           },
